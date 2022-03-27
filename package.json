@@ -1,25 +1,20 @@
 {
-  "name": "grahpql---pt",
+  "name": "GrahpQL---pt",
   "version": "1.0.0",
-  "description": "GraphQl practice",
+  "description": "Movie API with Graphql",
   "main": "index.js",
+  "repository": "https://github.com/seonwoong2/GrahpQL---pt.git",
+  "author": "seonwoong <lso5936@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "graphql-yoga": "^1.18.3"
+  },
   "scripts": {
     "start": "nodemon --exec babel-node index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/seonwoong2/GrahpQL---pt.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/seonwoong2/GrahpQL---pt/issues"
-  },
-  "homepage": "https://github.com/seonwoong2/GrahpQL---pt#readme",
-  "dependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-stage-3": "^6.24.1",
-    "graphql-yoga": "^1.18.3"
+  "type": "module",
+  "devDependencies": {
+    "babel-node": "^0.0.1-security"
   }
 }
